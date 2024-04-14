@@ -1,0 +1,23 @@
+.container{
+    max-width: 140rem;
+    padding: 4.2rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    gap: 3.2rem;
+}
+
+/* footer css */
+.footer{
+    background-color: #646cff;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    
+    & p{
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        text-align:center;
+    }
+}
